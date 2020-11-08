@@ -81,7 +81,7 @@ input:hover,
 select:hover,
 textarea:hover,
 button:hover {
-  border: 0.1rem #b7b8d8 solid;
+  border: 0.1rem #595ddf solid;
 }
 button.primary {
   background-color: #81c7e7;
@@ -202,7 +202,6 @@ img.large {
 }
 .form label {
   margin: 1rem 0;
-  display: block;
 }
 /* Dropdown */
 .dropdown {
