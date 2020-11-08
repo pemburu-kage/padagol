@@ -67,7 +67,7 @@ textarea,
 button {
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 0.1rem #a4a4a4 solid;
+  border: 0.1rem #3e8cda solid;
   font-size: 1.6rem;
   font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -81,10 +81,10 @@ input:hover,
 select:hover,
 textarea:hover,
 button:hover {
-  border: 0.1rem #404040 solid;
+  border: 0.1rem #b7b8d8 solid;
 }
 button.primary {
-  background-color: #f0c040;
+  background-color: #81c7e7;
 }
 button.block {
   width: 100%;
@@ -223,4 +223,16 @@ img.large {
 }
 .dropdown:hover .dropdown-content {
   display: block;
+}
+/* Checkout Steps */
+.checkout-steps > div {
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1;
+  padding: 1rem;
+  font-weight: bold;
+}
+.checkout-steps > div.active {
+  border-top-color: #81c7e7;
+  color: #81c7e7;
 }
